@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b3cde0; /* Pastel blue background */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+    color: #b3cde0;
+}
+
+.hero-section {
+    background-image: url('https://media.istockphoto.com/id/1088237718/vector/government-capitol-building-with-stars-abstract-background.jpg?s=612x612&w=0&k=20&c=HjAdBbbb1gWUqEn0p6ZA0EraRelbvW7ubkEDQf6gJ64='); /* Replace with your image link */
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: xx-large;
+    padding: 100px 20px;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.academic-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.academic-image {
+    max-width: 200px;
+    margin: 0 20px;
+}
+
+.info-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.info-text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.info-text p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.footer a {
+    color: #b3cde0;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
