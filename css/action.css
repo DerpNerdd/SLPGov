@@ -32,7 +32,7 @@ body {
 }
 
 .hero-section {
-    background-image: url('https://media.istockphoto.com/id/1088237718/vector/government-capitol-building-with-stars-abstract-background.jpg?s=612x612&w=0&k=20&c=HjAdBbbb1gWUqEn0p6ZA0EraRelbvW7ubkEDQf6gJ64='); /* Replace with your image link */
+    background-image: url('https://www.childrens.com/wps/wcm/connect/childrenspublic/81924136-875a-44c9-b7de-5bdd7282336f/Shutterstock_338038565_800x480.jpg?MOD=AJPERES&CVID='); /* Replace with your image link */
     background-size: cover;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -45,31 +45,35 @@ body {
     text-align: center;
 }
 
-.academic-info {
+.content p {
+    font-size: 20px; /* Adjusted font size */
+    line-height: 1.6; /* Improved readability */
+    margin-bottom: 40px;
+}
+
+.photos {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 40px 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
 
-.academic-image {
-    max-width: 400px;
-    margin: 0 20px;
+.photo-item {
+    text-align: center;
+    width: 30%;
+    margin-bottom: 20px;
 }
 
-.info-text {
-    max-width: 600px;
-    text-align: left;
+.photo-item h3 {
+    font-size: 18px;
+    margin-top: 10px;
 }
 
-.info-text h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-.info-text p {
-    font-size: 20px;
-    line-height: 1.6;
+.photo-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures images cover the div */
+    border: 2px solid #333;
 }
 
 .footer {
@@ -78,19 +82,4 @@ body {
     padding: 20px;
     text-align: center;
     font-size: 16px;
-}
-
-.footer ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 10px 0;
-}
-
-.footer a {
-    color: #b3cde0;
-    text-decoration: none;
-}
-
-.footer a:hover {
-    text-decoration: underline;
 }
