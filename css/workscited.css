@@ -1,0 +1,79 @@
+body {
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b3cde0;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+    color: #b3cde0;
+}
+
+.hero-section {
+    background-image: url('https://www.childrens.com/wps/wcm/connect/childrenspublic/81924136-875a-44c9-b7de-5bdd7282336f/Shutterstock_338038565_800x480.jpg?MOD=AJPERES&CVID=');
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: xx-large;
+    padding: 100px 20px;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.works-cited{
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-size: 18px;
+    padding: 10px;
+
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.footer a {
+    color: #b3cde0;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
